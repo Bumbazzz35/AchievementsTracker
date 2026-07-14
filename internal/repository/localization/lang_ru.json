@@ -1,0 +1,770 @@
+{
+  "minecraft:story/root": {
+    "title": "Minecraft",
+    "description": "Главная история игры",
+    "icon": "minecraft:crafting_table",
+    "category": "Достижение"
+  },
+  "minecraft:story/mine_stone": {
+    "title": "Каменный век",
+    "description": "Добудьте камень новой киркой",
+    "icon": "minecraft:wooden_pickaxe",
+    "category": "Достижение"
+  },
+  "minecraft:story/upgrade_tools": {
+    "title": "Обновка!",
+    "description": "Сделайте кирку попрочней",
+    "icon": "minecraft:stone_pickaxe",
+    "category": "Достижение"
+  },
+  "minecraft:story/smelt_iron": {
+    "title": "Куй железо...",
+    "description": "Выплавьте железный слиток",
+    "icon": "minecraft:iron_ingot",
+    "category": "Достижение"
+  },
+  "minecraft:story/obtain_armor": {
+    "title": "Дресс-код",
+    "description": "Защитите себя железной бронёй",
+    "icon": "minecraft:iron_chestplate",
+    "category": "Достижение"
+  },
+  "minecraft:story/lava_bucket": {
+    "title": "Горячая штучка",
+    "description": "Наберите ведро лавы",
+    "icon": "minecraft:lava_bucket",
+    "category": "Достижение"
+  },
+  "minecraft:story/iron_tools": {
+    "title": "И кирка без дела ржавеет",
+    "description": "Обновите свою кирку",
+    "icon": "minecraft:iron_pickaxe",
+    "category": "Достижение"
+  },
+  "minecraft:story/deflect_arrow": {
+    "title": "Не дождётесь!",
+    "description": "Отразите попадание щитом.",
+    "icon": "minecraft:shield",
+    "category": "Достижение"
+  },
+  "minecraft:story/form_obsidian": {
+    "title": "Две стихии",
+    "description": "Получите обсидиан",
+    "icon": "minecraft:obsidian",
+    "category": "Достижение"
+  },
+  "minecraft:story/mine_diamond": {
+    "title": "Алмазы!",
+    "description": "Добудьте алмазы",
+    "icon": "minecraft:diamond",
+    "category": "Достижение"
+  },
+  "minecraft:story/enter_the_nether": {
+    "title": "Огненные недра",
+    "description": "Постройте, зажгите и войдите в портал Незера",
+    "icon": "minecraft:flint_and_steel",
+    "category": "Достижение"
+  },
+  "minecraft:story/shiny_gear": {
+    "title": "Осыпь меня алмазами",
+    "description": "Алмазная броня спасает жизни",
+    "icon": "minecraft:diamond_chestplate",
+    "category": "Достижение"
+  },
+  "minecraft:story/enchant_item": {
+    "title": "Чародей",
+    "description": "Зачаруйте предмет на чародейском столе",
+    "icon": "minecraft:enchanting_table",
+    "category": "Достижение"
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "title": "Доктор для зомби",
+    "description": "Ослабьте и исцелите крестьянина-зомби",
+    "icon": "minecraft:golden_apple",
+    "category": "Цель"
+  },
+  "minecraft:story/follow_ender_eye": {
+    "title": "Недреманное око",
+    "description": "Следуйте за оком Эндера",
+    "icon": "minecraft:ender_eye",
+    "category": "Достижение"
+  },
+  "minecraft:story/enter_the_end": {
+    "title": "Конец?",
+    "description": "Войдите в портал Энда",
+    "icon": "minecraft:end_stone",
+    "category": "Достижение"
+  },
+
+
+
+  "minecraft:nether/root": {
+    "title": "Незер",
+    "description": "Захватите летнюю одежду",
+    "icon": "minecraft:netherrack",
+    "category": "Достижение"
+  },
+  "minecraft:nether/return_to_sender": {
+    "title": "Вернуть отправителю",
+    "description": "Убейте гаста собственным файерболом",
+    "icon": "minecraft:fire_charge",
+    "category": "Испытание"
+  },
+  "minecraft:nether/find_bastion": {
+    "title": "Наф-Наф тут больше не живёт",
+    "description": "Посетите развалины бастиона",
+    "icon": "minecraft:polished_blackstone_bricks",
+    "category": "Достижение"
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "title": "Осколки прошлого",
+    "description": "Добудьте древние обломки",
+    "icon": "minecraft:ancient_debris",
+    "category": "Достижение"
+  },
+  "minecraft:nether/fast_travel": {
+    "title": "Кротовая нора",
+    "description": "Воспользуйтесь Незером, чтобы переместиться на 7 км в обычном мире",
+    "icon": "minecraft:map",
+    "category": "Испытание"
+  },
+  "minecraft:nether/find_fortress": {
+    "title": "Чертоги страха",
+    "description": "Ворвитесь в крепость Незера",
+    "icon": "minecraft:nether_bricks",
+    "category": "Достижение"
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "title": "Обсидиановые слёзы",
+    "description": "Добудьте плачущий обсидиан",
+    "icon": "minecraft:crying_obsidian",
+    "category": "Достижение"
+  },
+  "minecraft:nether/distract_piglin": {
+    "title": "Бранзулетка!",
+    "description": "Отвлеките пиглина золотом",
+    "icon": "minecraft:gold_ingot",
+    "category": "Достижение"
+  },
+  "minecraft:nether/ride_strider": {
+    "title": "Ты неси по лаве меня",
+    "description": "Оседлайте лавомерку, управляя ею с помощью удочки с искажённым грибом",
+    "icon": "minecraft:warped_fungus_on_a_stick",
+    "category": "Достижение"
+  },
+  "minecraft:nether/uneasy_alliance": {
+    "title": "Война миров",
+    "description": "Заманите гаста в обычный мир... а затем убейте его",
+    "icon": "minecraft:ghast_tear",
+    "category": "Испытание"
+  },
+  "minecraft:nether/loot_bastion": {
+    "title": "Было ваше — стало наше!",
+    "description": "Обыщите сундук в развалинах бастиона",
+    "icon": "minecraft:gilded_blackstone",
+    "category": "Достижение"
+  },
+  "minecraft:nether/netherite_armor": {
+    "title": "Ладные доспехи",
+    "description": "Получите полный комплект незеритовой брони",
+    "icon": "minecraft:netherite_chestplate",
+    "category": "Испытание"
+  },
+  "minecraft:nether/get_wither_skull": {
+    "title": "Бедный Йорик!",
+    "description": "Добудьте череп визер-скелета",
+    "icon": "minecraft:wither_skeleton_skull",
+    "category": "Достижение"
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "title": "В полымя",
+    "description": "Добудьте огненный стержень",
+    "icon": "minecraft:blaze_rod",
+    "category": "Достижение"
+  },
+  "minecraft:nether/charge_respawn_anchor": {
+    "title": "Ларец Кощея",
+    "description": "Полностью зарядите якорь возрождения",
+    "icon": "minecraft:respawn_anchor",
+    "category": "Достижение"
+  },
+  "minecraft:nether/ride_strider_in_overworld_lava": {
+    "title": "Совсем как дома",
+    "description": "Совершите длинную поездку на лавомерке по озеру лавы в обычном мире",
+    "icon": "minecraft:warped_fungus_on_a_stick",
+    "category": "Достижение"
+  },
+  "minecraft:nether/explore_nether": {
+    "title": "Горящий тур",
+    "description": "Исследуйте все биомы Незера",
+    "icon": "minecraft:netherite_boots",
+    "category": "Испытание"
+  },
+  "minecraft:nether/summon_wither": {
+    "title": "Чудо-юдо",
+    "description": "Призовите визера",
+    "icon": "minecraft:nether_star",
+    "category": "Достижение"
+  },
+  "minecraft:nether/brew_potion": {
+    "title": "Местный зельевар",
+    "description": "Сварите зелье",
+    "icon": "minecraft:brewing_stand",
+    "category": "Достижение"
+  },
+  "minecraft:nether/create_beacon": {
+    "title": "Желанный свет",
+    "description": "Постройте и установите маяк",
+    "icon": "minecraft:beacon",
+    "category": "Достижение"
+  },
+  "minecraft:nether/all_potions": {
+    "title": "Энергетический коктейль",
+    "description": "Испытайте эффекты всех возможных зелий одновременно",
+    "icon": "minecraft:milk_bucket",
+    "category": "Испытание"
+  },
+  "minecraft:nether/create_full_beacon": {
+    "title": "Маяковский",
+    "description": "Доведите маяк до полной мощности",
+    "icon": "minecraft:beacon",
+    "category": "Цель"
+  },
+  "minecraft:nether/all_effects": {
+    "title": "Невозможное возможно!",
+    "description": "Испытайте все возможные эффекты одновременно",
+    "icon": "minecraft:milk_bucket",
+    "category": "Испытание"
+  },
+
+
+
+  "minecraft:end/root": {
+    "title": "Энд",
+    "description": "Конец... или начало?",
+    "icon": "minecraft:end_stone",
+    "category": "Достижение"
+  },
+  "minecraft:end/kill_dragon": {
+    "title": "Освободите Энд",
+    "description": "Удачи!",
+    "icon": "minecraft:dragon_egg",
+    "category": "Достижение"
+  },
+  "minecraft:end/dragon_egg": {
+    "title": "Новое поколение",
+    "description": "Подберите яйцо дракона",
+    "icon": "minecraft:dragon_egg",
+    "category": "Цель"
+  },
+  "minecraft:end/enter_end_gateway": {
+    "title": "Идеальный побег",
+    "description": "Покиньте остров",
+    "icon": "minecraft:ender_pearl",
+    "category": "Достижение"
+  },
+  "minecraft:end/respawn_dragon": {
+    "title": "Дежавю",
+    "description": "Возродите Эндер-дракона",
+    "icon": "minecraft:end_crystal",
+    "category": "Цель"
+  },
+  "minecraft:end/dragon_breath": {
+    "title": "Освежи дыхание",
+    "description": "Соберите дыхание дракона в бутылочку",
+    "icon": "minecraft:dragon_breath",
+    "category": "Цель"
+  },
+  "minecraft:end/find_end_city": {
+    "title": "Будь как дома, путник",
+    "description": "Зайдите в город Энда, что тут может случиться?",
+    "icon": "minecraft:purpur_block",
+    "category": "Достижение"
+  },
+  "minecraft:end/elytra": {
+    "title": "Где твои крылья?",
+    "description": "Найдите элитры",
+    "icon": "minecraft:elytra",
+    "category": "Цель"
+  },
+  "minecraft:end/levitate": {
+    "title": "Прекрасный вид!",
+    "description": "Пролевитируйте вверх на 50 блоков, благодаря шалкеру",
+    "icon": "minecraft:shulker_shell",
+    "category": "Испытание"
+  },
+
+
+
+  "minecraft:adventure/root": {
+    "title": "Приключения",
+    "description": "Приключения, исследования и сражения",
+    "icon": "minecraft:map",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/heart_transplanter": {
+    "title": "Скрепя сердцем",
+    "description": "Разместите скридцевину между двух брёвен бледного дуба в правильном положении",
+    "icon": "minecraft:creaking_heart",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "title": "Добровольное изгнание",
+    "description": "Убейте главаря разбойников. Может, стоит пока держаться подальше от деревень...",
+    "icon": "minecraft:white_banner",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/spyglass_at_parrot": {
+    "title": "Это птица?",
+    "description": "Взгляните на попугая через подзорную трубу",
+    "icon": "minecraft:spyglass",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "title": "Охотник на монстров",
+    "description": "Убейте злобного монстра",
+    "icon": "minecraft:iron_sword",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/read_power_of_chiseled_bookshelf": {
+    "title": "Знание — сила",
+    "description": "Считайте силу сигнала резной книжной полки с помощью компаратора",
+    "icon": "minecraft:chiseled_bookshelf",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/trade": {
+    "title": "Не отходя от кассы!",
+    "description": "Купите что-нибудь у крестьян",
+    "icon": "minecraft:emerald",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "title": "С чистого литья",
+    "description": "Нанесите отделку на броню на столе кузнеца",
+    "icon": "minecraft:smithing_template",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/honey_block_slide": {
+    "title": "Замедленное падение",
+    "description": "Прыгните в блок мёда, чтобы замедлить своё падение",
+    "icon": "minecraft:honey_block",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/ol_betsy": {
+    "title": "Самострел",
+    "description": "Выстрелите из арбалета",
+    "icon": "minecraft:crossbow",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "title": "Куда молния бьёт дважды",
+    "description": "Защитите крестьянина от удара молнии, не допустив пожара",
+    "icon": "minecraft:lightning_rod",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/fall_from_world_height": {
+    "title": "Пещеры и скалы",
+    "description": "Спрыгните с самой высокой точки мира (верхней границы), приземлившись живым на самом дне",
+    "icon": "minecraft:leather_boots",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/use_lodestone": {
+    "title": "Путеводный камень",
+    "description": "Используйте компас на магнетите",
+    "icon": "minecraft:lodestone",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "title": "Крупицы истории",
+    "description": "Получите глиняный черепок, очистив подозрительный блок",
+    "icon": "minecraft:pottery_sherd",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "title": "мыш (кродеться)",
+    "description": "Прокрадитесь мимо скалк-сенсора или хранителя, оставшись необнаруженным",
+    "icon": "minecraft:sculk_sensor",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "title": "Спи, моя радость, усни",
+    "description": "Поспите в кровати, чтобы изменить свою точку возрождения",
+    "icon": "minecraft:red_bed",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "title": "Герой деревни",
+    "description": "Успешно отразите нападение на деревню",
+    "icon": "minecraft:white_banner",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/spyglass_at_ghast": {
+    "title": "Это аэростат?",
+    "description": "Взгляните на гаста через подзорную трубу",
+    "icon": "minecraft:spyglass",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/throw_trident": {
+    "title": "Попасть впросак",
+    "description": "Метните трезубец в цель. Примечание: выбрасывать единственное оружие — это не лучшая затея.",
+    "icon": "minecraft:trident",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "title": "Оно живое",
+    "description": "Убейте моба рядом со скалковым катализатором",
+    "icon": "minecraft:sculk_catalyst",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "title": "Точно в цель",
+    "description": "Попадите в кого-нибудь стрелой",
+    "icon": "minecraft:arrow",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "title": "Зверобой",
+    "description": "Убейте по одному монстру каждого вида",
+    "icon": "minecraft:diamond_sword",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "title": "Свет в конце тоннеля",
+    "description": "Воспользуйтесь тотемом бессмертия, чтобы перехитрить смерть",
+    "icon": "minecraft:totem_of_undying",
+    "category": "Цель"
+  },
+  "minecraft:adventure/spear_many_mobs": {
+    "title": "Шашлык-машлык",
+    "description": "Поразите пять мобов таранным ударом копья",
+    "icon": "minecraft:trident",
+    "category": "Цель"
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "title": "Три закона големотехники",
+    "description": "Создайте железного голема для обороны деревни",
+    "icon": "minecraft:iron_block",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/trade_at_world_height": {
+    "title": "Звёздный торговец",
+    "description": "Поторгуйтесь с крестьянином на самой высокой точке мира",
+    "icon": "minecraft:emerald",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "title": "Кузнец своего стиля",
+    "description": "Хотя бы раз используйте шаблоны: «Шпиль», «Рыло», «Рёбро», «Хранитель», «Тишина», «Вредина», «Прилив» и «Искатель»",
+    "icon": "minecraft:smithing_template",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/two_birds_one_arrow": {
+    "title": "Двух птиц одним выстрелом",
+    "description": "Убейте двух фантомов одной стрелой",
+    "icon": "minecraft:crossbow",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/whos_the_pillager_now": {
+    "title": "И кто тут теперь разбойник?",
+    "description": "Отплатите разбойнику той же монетой",
+    "icon": "minecraft:crossbow",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/arbalistic": {
+    "title": "Арбаллистика",
+    "description": "Убейте одним выстрелом из арбалета пять разных мобов",
+    "icon": "minecraft:crossbow",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/craft_decorated_pot_using_only_sherds": {
+    "title": "Эпоха возрождения",
+    "description": "Создайте узорчатую вазу из четырёх глиняных черепков",
+    "icon": "minecraft:decorated_pot",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/advanturing_time": {
+    "title": "Время приключений",
+    "description": "Найдите все биомы",
+    "icon": "minecraft:diamond_boots",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/play_jukebox_in_shadows": {
+    "title": "Играй, гармоника!",
+    "description": "Оживите луга музыкой из проигрывателя",
+    "icon": "minecraft:jukebox",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
+    "title": "Прыткий как заяц",
+    "description": "Походите по рыхлому снегу... не проваливаясь",
+    "icon": "minecraft:leather_boots",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/spyglass_at_dragon": {
+    "title": "Это самолёт?",
+    "description": "Взгляните на Эндер-дракона через подзорную трубу",
+    "icon": "minecraft:spyglass",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/very_very_frightening": {
+    "title": "Грянул майский гром",
+    "description": "Поразите крестьянина молнией",
+    "icon": "minecraft:trident",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/sniper_duel": {
+    "title": "Снайперская дуэль",
+    "description": "Убейте скелета с расстояния не ближе 50 метров",
+    "icon": "minecraft:arrow",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/bullseye": {
+    "title": "В яблочко!",
+    "description": "Попадите прямо в яблочко мишени с расстояния 30 метров",
+    "icon": "minecraft:target",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/brush_armadillo": {
+    "title": "Ласковый и беззащитный зверь",
+    "description": "Добудьте щитки броненосца при помощи кисти",
+    "icon": "minecraft:brush",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "title": "Minecraft: пробное издание",
+    "description": "Войдите в дворец испытаний",
+    "icon": "minecraft:trial_key",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/crafters_crafting_crafters": {
+    "title": "До чего дошёл прогресс",
+    "description": "Будьте около сборщика, собирающего сборщик",
+    "icon": "minecraft:crafter",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/lighten_up": {
+    "title": "Лампа Аладдина",
+    "description": "Соскребите топором окись с медной лампы, чтобы сделать её ярче.",
+    "icon": "minecraft:copper_bulb",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "title": "Верхом на ветре",
+    "description": "Используйте заряд ветра, чтобы подлететь вверх на 8 блоков.",
+    "icon": "minecraft:wind_charge",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "title": "Золотой ключик",
+    "description": "Отоприте хранилище ключом испытаний.",
+    "icon": "minecraft:trial_key",
+    "category": "Достижение"
+  },
+  "minecraft:adventure/revaulting": {
+    "title": "Непросто ларчик открывался",
+    "description": "Отоприте зловещее хранилище зловещим ключом испытаний.",
+    "icon": "minecraft:ominous_trial_key",
+    "category": "Цель"
+  },
+  "minecraft:adventure/blowback": {
+    "title": "Не дуйся",
+    "description": "Убейте вихря его же зарядом ветра.",
+    "icon": "minecraft:wind_charge",
+    "category": "Испытание"
+  },
+  "minecraft:adventure/overoverkill": {
+    "title": "Есть пробитие!",
+    "description": "Нанесите 50 сердец урона одним ударом булавы.",
+    "icon": "minecraft:mace",
+    "category": "Испытание"
+  },
+
+
+
+  "minecraft:husbandry/root": {
+    "title": "Сельское хозяйство",
+    "description": "Мир друзей, добра и еды",
+    "icon": "minecraft:hay_block",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "title": "Гастеприимство!",
+    "description": "Поместите высохшего гаста в воду",
+    "icon": "minecraft:sponge",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "title": "Пора подкрепиться",
+    "description": "Поставьте костёр под ульем и соберите мёд в бутылочку, не разозлив пчёл",
+    "icon": "minecraft:honey_bottle",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "title": "Романтический ужин",
+    "description": "Сведите пару животных",
+    "icon": "minecraft:wheat",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "title": "Просто так!",
+    "description": "Заставьте тихоню доставлять вам предметы",
+    "icon": "minecraft:cookie",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/ride_a_boat_with_a_goat": {
+    "title": "Волк, коза и капуста",
+    "description": "Залезьте в лодку и плывите вместе с козой",
+    "icon": "minecraft:oak_boat",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "title": "Друг человека",
+    "description": "Приручите животное",
+    "icon": "minecraft:lead",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "title": "Чтенье — свет!",
+    "description": "Сделайте текст на любом виде таблички светящимся",
+    "icon": "minecraft:glow_ink_sac",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/fishy_business": {
+    "title": "На крючке",
+    "description": "Поймайте рыбу",
+    "icon": "minecraft:fishing_rod",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/silk_touch_nest": {
+    "title": "Полосатый груз",
+    "description": "С помощью «Шёлкового касания» переместите пчелиное гнездо или улей с тремя пчёлами внутри",
+    "icon": "minecraft:bee_nest",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "title": "Почётный пассажир",
+    "description": "Поймайте головастика в ведро",
+    "icon": "minecraft:tadpole_bucket",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/uh_oh": {
+    "title": "Ой-ой",
+    "description": "Дайте серному кубу подорвать динамит",
+    "icon": "minecraft:tnt",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "title": "Легенда о нюхозавре",
+    "description": "Получите яйцо нюхача",
+    "icon": "minecraft:sniffer_egg",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/plant_seed": {
+    "title": "Поле чудес",
+    "description": "Посадите в землю зерно и дождитесь, пока оно вырастет",
+    "icon": "minecraft:wheat_seeds",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/wax_on": {
+    "title": "Навести воск",
+    "description": "Нанесите воск на медный блок с помощью пчелиных сот!",
+    "icon": "minecraft:honeycomb",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "title": "Счастливый фермер",
+    "description": "Вырастите все виды животных!",
+    "icon": "minecraft:golden_carrot",
+    "category": "Испытание"
+  },
+  "minecraft:husbandry/allay_deliver_cake_to_note_block": {
+    "title": "Только раз в году!",
+    "description": "Заставьте тихоню бросить торт на нотный блок",
+    "icon": "minecraft:cake",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "title": "Полный котолог",
+    "description": "Приручите все виды кошек!",
+    "icon": "minecraft:cod",
+    "category": "Испытание"
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "title": "Рыбацкая хитрость",
+    "description": "Поймайте рыбу... без удочки!",
+    "icon": "minecraft:pufferfish_bucket",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "title": "Кто шагает дружно в ряд?",
+    "description": "Привяжите все виды лягушек на поводок",
+    "icon": "minecraft:lead",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/feed_snifflet": {
+    "title": "Нос не дорос",
+    "description": "Покормите нюхачонка",
+    "icon": "minecraft:torchflower_seeds",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "title": "Робин-Бобин",
+    "description": "Попробуйте всё съестное, даже если это не пойдёт вам на пользу",
+    "icon": "minecraft:apple",
+    "category": "Испытание"
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "title": "Заявка на победу",
+    "description": "Улучшите мотыгу с помощью незеритового слитка, а потом попробуйте переосмыслить свою жизнь",
+    "icon": "minecraft:netherite_hoe",
+    "category": "Испытание"
+  },
+  "minecraft:husbandry/wax_off": {
+    "title": "Убрать воск",
+    "description": "Соскребите воск с медного блока!",
+    "icon": "minecraft:stone_axe",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "title": "Ласковый и нежный зверь",
+    "description": "Поймайте аксолотля в ведро",
+    "icon": "minecraft:axolotl_bucket",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/froglights": {
+    "title": "Перекрёсток семи болот",
+    "description": "Соберите в инвентаре все виды квамп",
+    "icon": "minecraft:ochre_froglight",
+    "category": "Испытание"
+  },
+  "minecraft:husbandry/plant_any_sniffer_seed": {
+    "title": "Палеоботаника",
+    "description": "Посадите добытые нюхачем семена",
+    "icon": "minecraft:pitcher_pod",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/kill_axolotl_target": {
+    "title": "Дружба — это чудо!",
+    "description": "Скооперируйтесь с аксолотлем и выиграйте бой",
+    "icon": "minecraft:axolotl_bucket",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/repair_wolf_armor": {
+    "title": "Как новенький",
+    "description": "Полностью почините повреждённую волчью броню щитками броненосца",
+    "icon": "minecraft:armadillo_scute",
+    "category": "Достижение"
+  },
+  "minecraft:husbandry/whole_pack": {
+    "title": "Барбоскины",
+    "description": "Приручите волков всех видов",
+    "icon": "minecraft:bone",
+    "category": "Испытание"
+  },
+  "minecraft:husbandry/remove_wolf_armor": {
+    "title": "И овцы сыты, и волки целы",
+    "description": "Снимите броню с волка при помощи ножниц",
+    "icon": "minecraft:shears",
+    "category": "Достижение"
+  }
+}
