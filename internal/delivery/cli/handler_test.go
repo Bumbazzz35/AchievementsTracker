@@ -18,7 +18,7 @@ func testEvent() advancement.AdvancementEvent {
 			Title:       "Каменный век",
 			Description: "Добудьте камень новой киркой",
 			Icon:        "minecraft:wooden_pickaxe",
-			Category:    "Достижение",
+			Difficulty:  "Достижение",
 		},
 		Progress:  advancement.AdvancementProgress{Current: 3, Total: 126},
 		WorldName: "Новый мир",

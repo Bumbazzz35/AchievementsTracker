@@ -11,5 +11,6 @@ type LocalizedAdvancement struct {
 	Title       string
 	Description string
 	Icon        string
-	Category    string
+	Difficulty  string
+	Branch      string
 }

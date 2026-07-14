@@ -85,7 +85,7 @@ func (r *plainRenderer) RenderNewAdvancement(event advancement.AdvancementEvent)
 	fmt.Fprintf(r.w, "\n=== [%s] Новое достижение! [%d/%d] ===\n", event.WorldName, event.Progress.Current, event.Progress.Total)
 	fmt.Fprintf(r.w, "  Название:      %s\n", event.Advancement.Title)
 	fmt.Fprintf(r.w, "  Описание:      %s\n", event.Advancement.Description)
-	fmt.Fprintf(r.w, "  Категория:     %s\n", event.Advancement.Category)
+	fmt.Fprintf(r.w, "  Сложность:     %s\n", event.Advancement.Difficulty)
 	fmt.Fprintf(r.w, "  Системный ID:  %s\n", event.Advancement.ID)
 	fmt.Fprintf(r.w, "  Время:         %s\n", event.Timestamp.Format("02.01.2006 15:04:05"))
 	fmt.Fprintln(r.w, strings.Repeat("=", 40))
@@ -121,7 +121,7 @@ func (r *colorRenderer) RenderNewAdvancement(event advancement.AdvancementEvent)
 	fmt.Fprintf(r.w, "%s%s 🏆 [%s] Новое достижение! [%d/%d]%s\n", ansiBold, ansiGreen, event.WorldName, event.Progress.Current, event.Progress.Total, ansiReset)
 	fmt.Fprintf(r.w, "%sНазвание:%s      %s%s%s\n", ansiYellow, ansiReset, ansiCyan, event.Advancement.Title, ansiReset)
 	fmt.Fprintf(r.w, "%sОписание:%s      %s\n", ansiYellow, ansiReset, event.Advancement.Description)
-	fmt.Fprintf(r.w, "%sКатегория:%s     %s\n", ansiYellow, ansiReset, event.Advancement.Category)
+	fmt.Fprintf(r.w, "%sСложность:%s     %s\n", ansiYellow, ansiReset, event.Advancement.Difficulty)
 	fmt.Fprintf(r.w, "%sСистемный ID:%s  %s\n", ansiYellow, ansiReset, event.Advancement.ID)
 	fmt.Fprintf(r.w, "%sВремя:%s         %s\n", ansiYellow, ansiReset, event.Timestamp.Format("02.01.2006 15:04:05"))
 	fmt.Fprintf(r.w, "%s%s════════════════════════════════════════%s\n", ansiBold, ansiGreen, ansiReset)
@@ -163,7 +163,7 @@ type jsonAdvancement struct {
 	Title       string `json:"title"`
 	Description string `json:"description"`
 	Icon        string `json:"icon,omitempty"`
-	Category    string `json:"category,omitempty"`
+	Difficulty  string `json:"difficulty,omitempty"`
 }
 
 func toJSONAdvancement(a advancement.LocalizedAdvancement) jsonAdvancement {
@@ -172,7 +172,7 @@ func toJSONAdvancement(a advancement.LocalizedAdvancement) jsonAdvancement {
 		Title:       a.Title,
 		Description: a.Description,
 		Icon:        a.Icon,
-		Category:    a.Category,
+			Difficulty:  a.Difficulty,
 	}
 }
 

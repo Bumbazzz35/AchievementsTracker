@@ -3,6 +3,7 @@ package localization
 import (
 	_ "embed"
 	"encoding/json"
+	"strings"
 
 	"github.com/Bumbazzz35/AchievementTracker/internal/domain/advancement"
 )
@@ -20,7 +21,9 @@ func (repo *localizationRepository) GetLocalizedAdvancement(id string) (advancem
 		return advancement.LocalizedAdvancement{}, false
 	}
 
-	return advancement.LocalizedAdvancement{ID: id, Title: e.Title, Description: e.Description, Icon: e.Icon, Category: e.Category}, true
+	branch := extractBranch(id)
+
+	return advancement.LocalizedAdvancement{ID: id, Title: e.Title, Description: e.Description, Icon: e.Icon, Difficulty: e.Difficulty, Branch: branch}, true
 }
 
 func (repo *localizationRepository) GetAllAdvancementIDs() []string {
@@ -42,9 +45,30 @@ func NewRepository() (*localizationRepository, error) {
 	return &repo, nil
 }
 
+var branchNames = map[string]string{
+	"story":      "Minecraft",
+	"nether":     "Незер",
+	"end":        "Энд",
+	"adventure":  "Приключения",
+	"husbandry":  "Сельское хозяйство",
+}
+
+func extractBranch(id string) string {
+	after, ok := strings.CutPrefix(id, "minecraft:")
+	if !ok {
+		return ""
+	}
+	before, _, _ := strings.Cut(after, "/")
+	name, ok := branchNames[before]
+	if !ok {
+		return before
+	}
+	return name
+}
+
 type entry struct {
 	Title       string `json:"title"`
 	Description string `json:"description"`
 	Icon        string `json:"icon"`
-	Category    string `json:"category"`
+	Difficulty  string `json:"difficulty"`
 }
