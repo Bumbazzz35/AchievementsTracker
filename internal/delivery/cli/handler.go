@@ -172,7 +172,7 @@ func toJSONAdvancement(a advancement.LocalizedAdvancement) jsonAdvancement {
 		Title:       a.Title,
 		Description: a.Description,
 		Icon:        a.Icon,
-			Difficulty:  a.Difficulty,
+		Difficulty:  a.Difficulty,
 	}
 }
 

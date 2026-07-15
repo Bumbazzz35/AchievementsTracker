@@ -9,4 +9,5 @@ import (
 type AchievementTrackerService interface {
 	StartTracking(ctx context.Context) (<-chan advancement.AdvancementEvent, error)
 	StopTracking()
+	GetFullWorldState(ctx context.Context) (*advancement.FullWorldState, error)
 }

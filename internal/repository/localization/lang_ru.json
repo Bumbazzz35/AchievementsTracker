@@ -482,7 +482,7 @@
     "icon": "minecraft:decorated_pot",
     "difficulty": "Достижение"
   },
-  "minecraft:adventure/advanturing_time": {
+  "minecraft:adventure/adventuring_time": {
     "title": "Время приключений",
     "description": "Найдите все биомы",
     "icon": "minecraft:diamond_boots",
