@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Bumbazzz35/AchievementTracker/internal/app/tracker"
-	"github.com/Bumbazzz35/AchievementTracker/internal/delivery/cli"
+	"github.com/Bumbazzz35/AchievementTracker/pkg/app/tracker"
+	"github.com/Bumbazzz35/AchievementTracker/pkg/delivery/cli"
 )
 
 func main() {
